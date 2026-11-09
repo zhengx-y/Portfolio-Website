@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zhengxin Ye | Software Developer Portfolio</title>
+
+    <link rel="stylesheet" href="src/styles/global.css">
+    <script type="module" src="src/index.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="#home" class="nav__brand">Zhengxin.dev</a>
+            <div class="nav__links">
+                <a href="#home" class="nav__link">Home</a>
+                <a href="#about" class="nav__link">About</a>
+                <a href="#skills" class="nav__link">Skills</a>
+                <a href="#projects" class="nav__link">Projects</a>
+                <a href="#experience" class="nav__link">Experience</a>
+                <a href="#contact" class="nav__link">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="section hero">
+            <div class="hero__content">
+                <div class="hero__text">
+                    <span class="hero__badge">Apprentice Software Developer • Vienna</span>
+                    <h1 class="hero__title">Hi, I'm <span class="highlight">Zhengxin Ye</span>.</h1>
+                    <p class="hero__subtitle">
+                        Junior software developer building practical desktop applications with C# / .NET,
+                        clean event-driven architecture, and local AI toolchains.
+                    </p>
+                    <div class="hero__actions">
+                        <a href="#projects" class="btn btn--primary">Explore Projects</a>
+                        <a href="src/assets/docs/cv-de.pdf" target="_blank" rel="noopener noreferrer" class="btn btn--secondary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px; vertical-align: text-bottom;">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="7 10 12 15 17 10"></polyline>
+                                <line x1="12" y1="15" x2="12" y2="3"></line>
+                            </svg>
+                            View CV
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero__image-wrapper">
+                    <!-- Replace the src with your actual image file path later -->
+                    <img src="src/assets/images/zhengxin-ye-profile.jpg" alt="Zhengxin Ye" class="hero__image">
+                </div>
+            </div>
+            
+            <p id="message" class="hero__feedback" aria-live="polite"></p>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2 class="section__title">About Me</h2>
+            <div class="about__content">
+                <p>
+                    I am in my 2nd year of dual vocational training in application development
+                    (Applikationsentwicklung – Coding) at ibis acam in Vienna. My daily focus is
+                    object-oriented software architecture, business logic, and modular WPF solutions.
+                </p>
+                <p>
+                    My development mindset centers on reducing friction: <em>"You don't need more motivation; you need
+                        less friction."</em>
+                    Whether automating file management, implementing AES-256 encryption containers for shared classroom
+                    networks,
+                    or orchestrating timed desktop workflows, I aim to build software that removes barriers and
+                    maintains productive momentum.
+                </p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2 class="section__title">Skills & Technologies</h2>
+            <div class="skills__grid">
+
+                <!-- Primary Engineering -->
+                <div class="skill-category">
+                    <h3>Core Development</h3>
+                    <div class="tags">
+                        <span class="tag">C# / .NET</span>
+                        <span class="tag">WPF (XAML)</span>
+                        <span class="tag">ObservableCollection</span>
+                        <span class="tag">Java</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">Visual Studio</span>
+                    </div>
+                </div>
+
+                <!-- Architecture & Systems -->
+                <div class="skill-category">
+                    <h3>Architecture & Systems</h3>
+                    <div class="tags">
+                        <span class="tag">Layered Architecture</span>
+                        <span class="tag">Event-Driven Design</span>
+                        <span class="tag">AES-256 Encryption</span>
+                        <span class="tag">Windows Registry & Run</span>
+                        <span class="tag">JSON Persistence</span>
+                    </div>
+                </div>
+
+                <!-- AI, Workflow & Languages -->
+                <div class="skill-category">
+                    <h3>Tooling & Languages</h3>
+                    <div class="tags">
+                        <span class="tag">Local LLMs (Ollama / GGUF)</span>
+                        <span class="tag">Git & GitHub</span>
+                        <span class="tag">German (C1)</span>
+                        <span class="tag">English (C1)</span>
+                        <span class="tag">Mandarin (Native)</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2 class="section__title">Featured Projects</h2>
+            <div class="projects__grid">
+
+                <!-- Project 1: Lehrstellensuchassistenz -->
+                <article class="project-card">
+                    <div class="project-card__image-placeholder">
+                        <span>C# / WPF • v3.1.1</span>
+                    </div>
+                    <div class="project-card__body">
+                        <h3 class="project-card__title">Lehrstellensuchassistenz</h3>
+                        <p class="project-card__desc">
+                            A centralized application management desktop app built to eliminate friction in the job-hunt
+                            process.
+                            Features color-coded status pipelines, dynamic sorting, automated directory structuring, MS
+                            Word integration,
+                            and rich-text notes supporting inline image imports. Includes a multi-user branch utilizing
+                            AES-256 encrypted
+                            data containers for secure shared network storage in classroom environments.
+                        </p>
+                        <div class="tags">
+                            <span class="tag">C#</span>
+                            <span class="tag">.NET</span>
+                            <span class="tag">WPF</span>
+                            <span class="tag">AES-256</span>
+                            <span class="tag">JSON Storage</span>
+                            <span class="tag">Word Integration</span>
+                        </div>
+                        <div class="project-card__links">
+                            <a href="https://github.com/zhengx-y/Lehrstellensuchassistenz" class="btn-link"
+                                target="_blank" rel="noopener">GitHub Repository &rarr;</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2: Workflow Timer -->
+                <article class="project-card">
+                    <div class="project-card__image-placeholder">
+                        <span>Productivity & Automation Tool</span>
+                    </div>
+                    <div class="project-card__body">
+                        <h3 class="project-card__title">Workflow Timer</h3>
+                        <p class="project-card__desc">
+                            An event-driven desktop utility engineered around work inertia to help developers maintain
+                            flow states.
+                            Features configurable work/break intervals, an always-on-top dual-timer overlay, automated
+                            delayed launching
+                            of apps and URLs via user-defined offsets, workflow presets, and daily work analytics with
+                            personal records.
+                        </p>
+                        <div class="tags">
+                            <span class="tag">C#</span>
+                            <span class="tag">WPF</span>
+                            <span class="tag">Event-Driven</span>
+                            <span class="tag">Process Automation</span>
+                            <span class="tag">JSON Presets</span>
+                        </div>
+                        <div class="project-card__links">
+                            <a href="https://github.com/zhengx-y/Workflow-Timer" class="btn-link" target="_blank"
+                                rel="noopener">GitHub Repository &rarr;</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3: Portfolio Website -->
+                <article class="project-card">
+                    <div class="project-card__image-placeholder">
+                        <span>Frontend Web</span>
+                    </div>
+                    <div class="project-card__body">
+                        <h3 class="project-card__title">Personal Developer Portfolio</h3>
+                        <p class="project-card__desc">
+                            A responsive personal portfolio site built using semantic HTML5, CSS custom properties
+                            (variables),
+                            flexbox, CSS grid, and vanilla JavaScript for interactive feedback and form handling.
+                        </p>
+                        <div class="tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript (ES6+)</span>
+                            <span class="tag">Responsive Design</span>
+                        </div>
+                        <div class="project-card__links">
+                            <a href="#home" class="btn-link">Active Page</a>
+                            <a href="https://github.com/zhengx-y" class="btn-link" target="_blank" rel="noopener">GitHub
+                                Profile</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Experience & Education Section -->
+        <section id="experience" class="section">
+            <h2 class="section__title">Apprenticeship & Experience</h2>
+            <div class="experience-card">
+                <div class="experience-card__header">
+                    <h3>Applikationsentwicklung – Coding (2. Lehrjahr)</h3>
+                    <span class="experience-card__date">09/2025 – Present</span>
+                </div>
+                <h4 class="experience-card__company">ibis acam Bildungs GmbH • 1230 Wien</h4>
+                <p class="experience-card__desc">
+                    Dual vocational training / supra-company apprenticeship (ÜBA). Hands-on practice in software
+                    architecture,
+                    modular component design, C# / .NET development, clean code standards, and agile, project-oriented
+                    workflows.
+                </p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2 class="section__title">Get In Touch</h2>
+            <p class="contact__subtitle">Interested in collaboration or have questions about my projects? Send a
+                message.</p>
+
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="formMessage">Message</label>
+                    <textarea id="formMessage" name="message" rows="5" required
+                        placeholder="Write your message here..."></textarea>
+                </div>
+                <button type="submit" class="btn btn--primary">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Zhengxin Ye. Built with standard HTML, CSS & JS.</p>
+    </footer>
+</body>
+
+</html>
